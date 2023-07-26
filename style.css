@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/new-macbook-pro-2021-on-black.webp);
+    background-size: cover;
+    position: absolute;
+}
+
+.hero-text {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.hero-btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.hero-btn-1 {
+    background-color: rgb(129, 129, 248);
+    color: white;
+}
